@@ -40,7 +40,8 @@ Upload a resume (PDF) and optionally paste a job description. The app analyzes t
    pip install django djangorestframework django-cors-headers pdfplumber requests python-dotenv
 ```
 
-3. Create a `.env` file in the project root:
+3. Create a `.env` 
+file in the project root:
 LLM_API_KEY=your_gemini_api_key_here
 
 4. Run migrations and start the server:
