@@ -18,6 +18,10 @@ Upload a resume (PDF) and optionally paste a job description. The app analyzes t
 - **Database:** SQLite
 
 ## Project Structure
+├── app_screener/              # Django app (models, views, serializers)
+├── project_resumescreener/    # Django project settings
+├── resume-screener-frontend/  # React frontend
+└── manage.py
 
 
 ## Setup Instructions
@@ -37,7 +41,7 @@ Upload a resume (PDF) and optionally paste a job description. The app analyzes t
 ```
 
 3. Create a `.env` file in the project root:
-
+LLM_API_KEY=your_gemini_api_key_here
 
 4. Run migrations and start the server:
 ```bash
